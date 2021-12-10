@@ -1,0 +1,493 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    height: 80px;
+    position: absolute;
+    width: 100%;
+}
+
+.logo-barber:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 450px;
+}
+
+.contenedor-texto h1 {
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 1px 2px 3px black;
+}
+
+.contenedor-texto {
+    text-shadow: 1px 2px 3px black;
+    margin: 10px;
+    text-align: center;
+}
+
+.contenedor-texto p {
+    text-shadow: 1px 2px 3px black;
+    margin: 10px;
+    text-align: center;
+}
+
+.slider {
+    background-image: url('../imagenes/pexels-dmitry-zvolskiy-1805600.jpg');
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 15px;
+    color: white;
+}
+
+.Reserva_Tu_Cita {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Hora_Cita {
+    width: 250px;
+    align-items: flex-start;
+    vertical-align: inherit;
+}
+
+.Fecha {
+    background-image: url(fecha.svg);
+}
+
+.Hora_Cita input {
+    padding: 0.4em;
+    padding-left: 10%;
+    margin: 6px;
+}
+
+.FormularioCita {
+    background-color: black;
+    color: white;
+    padding: 35px;
+}
+
+.TituloFormulario {
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkbox-Subcribirse {
+    display: flex;
+}
+
+.checkbox-Terminos {
+    display: flex;
+}
+
+.Reserva_Tu_Cita h2 {
+    width: 500px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.Reserva_Tu_Cita p {
+    text-align: justify;
+    width: 500px;
+}
+
+.BoxTime {
+    width: 220px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.Historia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ImagenForm {
+    text-align: center;
+}
+
+.btnAgendar {
+    background: white;
+    border-style: none;
+    padding: 10px 15px !important;
+}
+
+.Historia hr {
+    border: 1px solid black;
+    width: 50px;
+}
+
+.Reserva_Tu_Cita {
+    background-image: url(../imagenes/BarbaFondo.jpg);
+    background-size: contain;
+}
+
+.nombre {
+    display: flex;
+    background-image: url(../imagenes/usuario.png);
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    width: 83%;
+    padding-left: 9%;
+}
+
+.Telefono {
+    display: flex;
+    background-image: url(../imagenes/telefono.png);
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    width: 83%;
+    padding-left: 9%;
+}
+
+.Email {
+    display: flex;
+    background-image: url(../imagenes/correo.png);
+    background-repeat: no-repeat;
+    background-position: 2% center;
+    width: 83%;
+    padding-left: 9%;
+}
+
+.Servicios {
+    background-color: #F7F8FA;
+    align-content: center;
+    justify-content: center;
+    font-family: 'BebasNeue';
+}
+
+.Servicios-Title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Servicios img {
+    padding-top: 30px;
+    align-items: center;
+    width: 150px;
+}
+
+.Servicios-Title h1 {
+    margin: 5px;
+    font-size: 40px;
+}
+
+.ServiciosBar div {
+    width: 25%;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Servicios hr {
+    border: 1px solid black;
+    width: 50px;
+}
+
+.ServiciosBar {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 96%;
+    display: flex;
+}
+
+.ServiciosBar img {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 80%;
+}
+
+.ServiciosBar h2 {
+    text-align: center;
+}
+
+.ServiciosBar p {
+    text-align: center;
+}
+
+.Contenedor-Imagen-y-Servicios {
+    display: flex;
+}
+
+.Mas-Servicios h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Mas-Servicios {
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mas-Servicios img {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 35%;
+}
+
+.Mas-Servicios div {
+    width: 95%;
+    padding: 15px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.Mas-Servicios p {
+    font-size: 20px;
+}
+
+.btnLeer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-color: #486b71;
+}
+
+.Horario {
+    font-family: 'BebasNeue';
+    font-size: 22px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    color: white;
+    background-image: url(../imagenes/FondoHorario.jpg);
+    padding: 0px 60px;
+}
+
+.Horario img {
+    margin-top: 30px;
+    height: 39px;
+}
+
+.Horario h2 {
+    margin-block-start: 5px;
+}
+
+.Horario div {
+    opacity: 0.9;
+}
+
+.Horas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Horas div {
+    background-color: #CA9D66;
+    margin: 10px;
+    width: 13%;
+    ;
+}
+
+.btnReservarAhora {
+    margin-top: 40px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+}
+
+.btnReservarAhora:hover {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
+.Contacto {
+    background-image: url(../imagenes/fondoRedes.jpg);
+    text-align: center;
+}
+
+.Contacto a {
+    font-family: 'BebasNeue';
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.Contacto h1 {
+    margin-top: 0px;
+}
+
+.Contacto img {
+    width: 70px;
+}
+
+.Contacto p {
+    font-size: 19px;
+    margin: 0px;
+}
+
+.RedesSociales {
+    justify-content: space-around;
+    display: flex;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.Gmail img {
+    width: 30px;
+}
+
+.LogoFacebook:hover {
+    width: 80px;
+}
+
+.LogoInstagram:hover {
+    width: 80px;
+}
+
+.LogoWhatsapp:hover {
+    width: 80px;
+}
+
+.Gmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogoGmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogoGmail:hover {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NuestraSede {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NuestraSede img {
+    width: 40px;
+    margin-top: 25px;
+}
+
+.NuestraSede h2 {
+    text-shadow: 1px 2px 3px black;
+    color: #CA9D66;
+    font-family: fantasy;
+    margin-block-end: 0px;
+}
+
+.NuestraSede hr {
+    border: 1px solid black;
+    width: 40px;
+}
+
+.Footer {
+    color: white;
+    background-color: black;
+}
+
+.Footer a {
+    color: #486b71;
+    text-decoration: none;
+}
+
+.Icono-Ubicacion img {
+    width: 20px;
+    margin-top: 0px;
+}
+
+.Galeria {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Galeria h1 {
+    margin-block-end: 0px;
+}
+
+.Galeria hr {
+    border: 1px solid black;
+    width: 40px;
+}
+
+.Colage-Fotos img {
+    width: 300px;
+    height: 300px;
+}
+
+.Colage-Fotos {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    column-gap: 15px;
+    align-self: center;
+    row-gap: 15px;
+}
+
+.Footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.Footer p {
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+}
+
+.Mostacho-Servicios {
+    margin-top: 100px;
+}

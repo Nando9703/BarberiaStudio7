@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Barberia Studio7</title>
+    <script src="Java.js"></script>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="icon" href="./Vectores/FaviconBarberia.svg">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img class="logo-barber" src="./Vectores/Logo.svg" width="250px" alt="">
+            <img src="./Vectores/Rallitas.svg" width="250px" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a class="link" href="file:///D:/Nando/Desarollo%20Web%20Pagina%20Barberia/Pagina%20Barberia%20Studio7.html">Inicio</a>
+                </li>
+                <li>
+                    <a class="link" href="#Reserva_Tu_Cita">Historia</a>
+                </li>
+                <li>
+                    <a class="link" href="#Servicios">Servicios</a>
+                </li>
+                <li>
+                    <a class="link" href="#Reserva_Tu_Cita">Separa tu cita</a>
+
+                </li>
+                <li>
+                    <a class="link" href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="contenedor-texto">
+            <p>Desde 2017</p>
+            <img src="./Vectores/CaraBarber.svg" width="120px" alt="">
+            <h1>BARBERIA</h1>
+            <p>Barbería Studio7 Surgió en Santa Rosa de Cabal el 12 Septiembre de 2017, Nos Especializamos en Corte de Caballero y Arreglo de Barba.</p>
+        </div>
+    </div>
+    <div id="Reserva_Tu_Cita" class="Reserva_Tu_Cita">
+        <div class="Historia">
+            <div class="ImagenForm">
+                <img src="./Vectores/Mostacho.svg" width="150px" alt="">
+            </div>
+            <h2>Historia de La Barberia</h2>
+            <hr>
+            <p>Barbería Studio7 Surgió en Santa Rosa de Cabal el 12 Septiembre de 2017 a ido creciendo con el tiempo convirtiendose en la mejor Barberia de Santa Rosa de cabal, Nos Especializamos en Corte de Caballero, Arreglo de Barba,depilación de cejas,
+                Limpieza Facial y muchos otros Servicios.</p>
+        </div>
+        <form class="FormularioCita">
+            <div class="Hora_Cita">
+                <div class="TituloFormulario">
+                    <img src="./Vectores/calendario.svg" width="25px" alt="">
+                    <h2>Separa Tu Cita</h2>
+                </div>
+                <div class="ImagenForm">
+                    <img src="./Vectores/Rallitas.svg" width="150px" alt="">
+                </div>
+                <div class="Input-Formulario">
+                    <div>
+                        <input class="nombre" type="text" placeholder="Nombre" id="nombre">
+                    </div>
+                    <div>
+                        <input class="Telefono" type="text" placeholder="Teléfono">
+                    </div>
+                    <div>
+                        <input class="Email" type="text" placeholder="Email">
+                    </div>
+                    <input class="BoxTime" type="datetime-local" placeholder="Hora de la Cita">
+                    <input type="submit" name="submit" value="Agendar" class="btnAgendar" onclick="captura()" ;>
+                </div>
+                <div class="checkbox-Subcribirse">
+                    <input type="checkbox" name="subscribe" id="subscribe" value="yes">
+                    <label>¡No enviaremos spam!</label>
+                </div>
+                <div class="checkbox-Terminos">
+                    <input type="checkbox" name="Terminos" id="Terminos" value="yes">
+                    <label>Estoy de acuerdo con los términos y condiciones.</label>
+                </div>
+            </div>
+        </form>
+        <div></div>
+
+    </div>
+    <div id="Servicios" class="Servicios">
+        <div class="Servicios-Title">
+            <img src="./Vectores/Mostacho.svg" alt="">
+            <h1> Nuestros Servicios</h1>
+        </div>
+        <div class="ServiciosBar">
+            <div>
+                <h2>Corte De Cabello</h2>
+                <hr>
+                <img src="./imagenes/ImagenCorte.jpg" alt="">
+                <p>El Mejor Corte de Barberia, Con las mejores tecnicas Modernas y Experiencias en los Mejores Desvanecidos.</p>
+                <a href="file:///D:/Nando/Desarollo%20Web%20Pagina%20Barberia/Mas-Servicios.html">
+                    <input type="submit" value="Leer Mas" class="btnLeer">
+                </a>
+            </div>
+            <div>
+                <h2>Arreglo Barba</h2>
+                <hr>
+                <img src="./imagenes/ImagenBarba.jpg" alt="">
+                <p>Comenzamos con una perfecta pulida de tu barba, luego la agradable sensación de nuestra espuma y toalla caliente.</p>
+                <a href="file:///D:/Nando/Desarollo%20Web%20Pagina%20Barberia/Mas-Servicios.html">
+                    <input type="submit" value="Leer Mas" class="btnLeer">
+                </a>
+            </div>
+            <div>
+                <h2>Afeitado Clasico</h2>
+                <hr>
+                <img src="./imagenes/AfeitadoClasic.jpg" alt="">
+                <p>A nuestra afeitada clásica le agregamos vapor con ozono y esencias para abrir bien esos poros y así lograr una rasurada perfecta.</p>
+                <a href="file:///D:/Nando/Desarollo%20Web%20Pagina%20Barberia/Mas-Servicios.html">
+                    <input type="submit" value="Leer Mas" class="btnLeer">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="Horario" class="Horario">
+            <img src="./Vectores/Tijera.png" alt="">
+            <h2>Nuestro Horario</h2>
+            <div class="Horas">
+                <div>
+                    <h2>LUN</h2>
+                    <p>9:00-8:00</p>
+                </div>
+                <div>
+                    <h2>MAR</h2>
+                    <p>9:00-8:00</p>
+                </div>
+                <div>
+                    <h2>MIE</h2>
+                    <p>9:00-8:00</p>
+                </div>
+                <div>
+                    <h2>JUE</h2>
+                    <p>9:00-8:00</p>
+                </div>
+                <div>
+                    <h2>VIE</h2>
+                    <p>9:00-8:00</p>
+                </div>
+                <div>
+                    <h2>SAB</h2>
+                    <p>9:00-8:00</p>
+                </div>
+                <div>
+                    <h2>DOM</h2>
+                    <p>9:00-12:00</p>
+                </div>
+            </div>
+            <input type="submit" value="Reservar Ahora" class="btnReservarAhora">
+        </div>
+    </div>
+    <div class="NuestraSede">
+        <img src="./Vectores/silla.svg" alt="">
+        <h2>Nuestra Sede</h2>
+        <div class="Icono-Ubicacion">
+            <p>Calle 14 # 15-28 <img src="./Vectores/marcador-de-posicion.svg" alt="">(Diagonal a la casa de la cultura) -Santa Rosa de Cabal</p>
+        </div>
+        <hr>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.9296629411404!2d-75.62240483117984!3d4.866160197297781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc488305b0e52d0c7!2sBarberia%20Studio7!5e0!3m2!1ses-419!2sco!4v1605141020902!5m2!1ses-419!2sco"
+            width="600" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div class="Galeria">
+        <h1>Galeria</h1>
+        <hr>
+
+        <div class="Colage-Fotos">
+
+
+            <img src="./imagenes/Foto4.jpg" alt="">
+            <img src="./imagenes/Foto5.jpg" alt="">
+            <img src="./imagenes/Foto6.jpg" alt="">
+            <img src="./imagenes/Foto10.jpg" alt="">
+            <img src="./imagenes/Foto13.jpg" alt="">
+            <img src="./imagenes/Foto16.jpg" alt="">
+
+        </div>
+    </div>
+    <div id="Contacto" class="Contacto">
+        <h1>Contacto</h1>
+        <h2>
+            <div class="Gmail">
+                <a href="mailto:barberiastudio7.2017@gmail.com" target="_blank"> <img class="LogoGmail" src="./Vectores/gmail.svg" alt=""></a>
+                <p>barberiastudio7.2017@gmail.com</p>
+            </div>
+        </h2>
+        <div class="RedesSociales">
+            <div>
+                <a href="https://api.whatsapp.com/message/ZHQXX6U7HFBRM1" target="_blank"> <img class="LogoWhatsapp" src="./Vectores/whatsapp.svg" alt=""></a>
+                <p>3024278149</p>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/barberia_studio7/" target="_blank"><img class="LogoInstagram" src="./Vectores/instagram.svg" alt=""></a>
+                <p>@barberia_studio7 </p>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/BarberiaStudio7" target="_blank"> <img class="LogoFacebook" src="./Vectores/facebook.svg" alt=""></a>
+                <p>@BarberiaStudio7 </p>
+            </div>
+        </div>
+    </div>
+    <div class="Footer">
+        <p>©2020 Barberia Studio7,Diseñado con <img width="12px" src="./Vectores/favorito.svg" alt=""> por <a target="_blank" href="https://www.facebook.com/heernando.goomezocampo">Nando Gomez</a> </p>
+    </div>
+
+</body>
+
+</html>
